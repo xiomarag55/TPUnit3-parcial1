@@ -1,12 +1,11 @@
 package org.example.ejercicios;
 
+import constants.Constants;
 import model.BillingFiveModel;
 import java.util.List;
-import java.util.logging.Logger;
 
 //This is the main class
 public class BillingFiveMain {
-    private static final Logger LOGGER = Logger.getLogger(BillingFiveMain.class.getName());
 
     //Method to calculate the total of an account
     public static Double calculateTotalAccount(List<Double> billing) {
@@ -21,7 +20,8 @@ public class BillingFiveMain {
         }
     }
     public static void main(String[] args) {
-        LOGGER.info("The BillingFiveMain class is being executed");
+
+        Constants.LOGGER.info("The BillingFiveMain class is being executed");
 
         BillingFiveModel billingOne = new BillingFiveModel("Mania Sanabria", "Julio 1, 1999", List.of(4500D, 5000D, 2500D));
         BillingFiveModel billingTwo = new BillingFiveModel("Juan Perez", "Agosto 15, 2000", List.of(3500D, 6000D, 2800D));
