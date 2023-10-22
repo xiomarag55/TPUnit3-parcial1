@@ -1,0 +1,8 @@
+Exercise 1: CalculatePerimeterRectangleMain
+Exercise 2 : BillingFiveMain
+Modifications:
+- The record is moved to a model folder so that it can be reused by others classes and to make the code more orderly
+- The method for calculating are taken out  so that it can be reused as many times as necessary
+- Add logger to check where code is being executed
+- Names are modified to be clearer to the others developers and the necessary comments added to the coded
+- Adding a constant class for logger and others variables to be used several times within the code
