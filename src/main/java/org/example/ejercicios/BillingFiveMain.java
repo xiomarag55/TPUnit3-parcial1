@@ -2,11 +2,11 @@ package org.example.ejercicios;
 
 import constants.Constants;
 import model.BillingFiveModel;
+
 import java.util.List;
 
 //This is the main class
 public class BillingFiveMain {
-
     //Method to calculate the total of an account
     public static Double calculateTotalAccount(List<Double> billing) {
         double totalValueBillingOne = 0;
@@ -19,6 +19,7 @@ public class BillingFiveMain {
             return 0.0;
         }
     }
+
     public static void main(String[] args) {
 
         Constants.LOGGER.info("The BillingFiveMain class is being executed");
